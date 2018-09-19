@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NZQBaseKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "NZQ iOS开发基础常用框架"
 
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   
   s.ios.deployment_target = "10.3"
-
+  s.swift_version = "4.1"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -41,11 +41,16 @@ Pod::Spec.new do |s|
 
 
 
-  s.frameworks    = 'UIKit' , 'Foundation'
+  s.frameworks    = 'UIKit'
   s.dependency 'MJRefresh'
   s.dependency 'Alamofire'
   s.dependency 'SwiftyJSON'
   s.dependency 'AlamofireImage'
+  s.dependency 'SnapKit'
+  s.dependency 'Hero'
+  s.dependency 'CollectionKit'
+  s.dependency 'ESTabBarController-swift'
+  
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -1,0 +1,6 @@
+framework module NZQBaseKit {
+  umbrella header "NZQBaseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		681BD4E721509651007223D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681BD4E621509651007223D6 /* AppDelegate.swift */; };
-		681BD4E921509651007223D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681BD4E821509651007223D6 /* ViewController.swift */; };
-		681BD4EC21509651007223D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681BD4EA21509651007223D6 /* Main.storyboard */; };
 		681BD4EE21509652007223D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681BD4ED21509652007223D6 /* Assets.xcassets */; };
 		681BD4F121509652007223D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681BD4EF21509652007223D6 /* LaunchScreen.storyboard */; };
 		681BD4FC21509652007223D6 /* NZQBaseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681BD4FB21509652007223D6 /* NZQBaseKitTests.swift */; };
 		681BD50721509652007223D6 /* NZQBaseKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681BD50621509652007223D6 /* NZQBaseKitUITests.swift */; };
+		6835DC632151E5F000DB7A48 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6835DC622151E5F000DB7A48 /* ExampleViewController.swift */; };
+		6835DC6C2151F1AA00DB7A48 /* NZQThirdPartyLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6835DC6B2151F1AA00DB7A48 /* NZQThirdPartyLoad.swift */; };
+		6835DC732152375C00DB7A48 /* NZQNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6835DC722152375C00DB7A48 /* NZQNetworkTool.swift */; };
+		684F61A42150FCA60042F7DC /* NZQTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684F61A32150FCA60042F7DC /* NZQTabBarController.swift */; };
+		A552DE81F712C47E8F00D2DA /* Pods_NZQBaseKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF47182B64F9847BF39B2D4 /* Pods_NZQBaseKitTests.framework */; };
+		B17BAD26DC7A216B7399C3D5 /* Pods_NZQBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232AD766043D1C62D58F31E2 /* Pods_NZQBaseKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AC995D3119AED0A3318CA5F /* Pods-NZQBaseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZQBaseKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NZQBaseKit/Pods-NZQBaseKit.debug.xcconfig"; sourceTree = "<group>"; };
+		232AD766043D1C62D58F31E2 /* Pods_NZQBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NZQBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF47182B64F9847BF39B2D4 /* Pods_NZQBaseKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NZQBaseKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		681BD4E321509651007223D6 /* NZQBaseKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NZQBaseKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		681BD4E621509651007223D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		681BD4E821509651007223D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		681BD4EB21509651007223D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		681BD4ED21509652007223D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		681BD4F021509652007223D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		681BD4F221509652007223D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		681BD50221509652007223D6 /* NZQBaseKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NZQBaseKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		681BD50621509652007223D6 /* NZQBaseKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NZQBaseKitUITests.swift; sourceTree = "<group>"; };
 		681BD50821509652007223D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6835DC622151E5F000DB7A48 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		6835DC6B2151F1AA00DB7A48 /* NZQThirdPartyLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NZQThirdPartyLoad.swift; sourceTree = "<group>"; };
+		6835DC722152375C00DB7A48 /* NZQNetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NZQNetworkTool.swift; sourceTree = "<group>"; };
+		684F61A32150FCA60042F7DC /* NZQTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NZQTabBarController.swift; sourceTree = "<group>"; };
+		6C92A980CF660660F8A96702 /* Pods-NZQBaseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZQBaseKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-NZQBaseKit/Pods-NZQBaseKit.release.xcconfig"; sourceTree = "<group>"; };
+		7BCC2335C06A1ABA66370F3F /* Pods-NZQBaseKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZQBaseKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NZQBaseKitTests/Pods-NZQBaseKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D06ACD84F8631E8C5624B63B /* Pods-NZQBaseKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZQBaseKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NZQBaseKitTests/Pods-NZQBaseKitTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B17BAD26DC7A216B7399C3D5 /* Pods_NZQBaseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A552DE81F712C47E8F00D2DA /* Pods_NZQBaseKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ED3417A1E34D717AD54A2A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AC995D3119AED0A3318CA5F /* Pods-NZQBaseKit.debug.xcconfig */,
+				6C92A980CF660660F8A96702 /* Pods-NZQBaseKit.release.xcconfig */,
+				7BCC2335C06A1ABA66370F3F /* Pods-NZQBaseKitTests.debug.xcconfig */,
+				D06ACD84F8631E8C5624B63B /* Pods-NZQBaseKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		681BD4DA21509651007223D6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				681BD4FA21509652007223D6 /* NZQBaseKitTests */,
 				681BD50521509652007223D6 /* NZQBaseKitUITests */,
 				681BD4E421509651007223D6 /* Products */,
+				1ED3417A1E34D717AD54A2A7 /* Pods */,
+				D0EE692D2AED416EC8652D51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +124,9 @@
 		681BD4E521509651007223D6 /* NZQBaseKit */ = {
 			isa = PBXGroup;
 			children = (
+				6835DC672151F14000DB7A48 /* Classes */,
+				684F61A22150F76B0042F7DC /* Demo */,
 				681BD4E621509651007223D6 /* AppDelegate.swift */,
-				681BD4E821509651007223D6 /* ViewController.swift */,
-				681BD4EA21509651007223D6 /* Main.storyboard */,
 				681BD4ED21509652007223D6 /* Assets.xcassets */,
 				681BD4EF21509652007223D6 /* LaunchScreen.storyboard */,
 				681BD4F221509652007223D6 /* Info.plist */,
@@ -125,6 +152,49 @@
 			path = NZQBaseKitUITests;
 			sourceTree = "<group>";
 		};
+		6835DC672151F14000DB7A48 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6835DC712152372E00DB7A48 /* NetWork */,
+				6835DC682151F14D00DB7A48 /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6835DC682151F14D00DB7A48 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6835DC6B2151F1AA00DB7A48 /* NZQThirdPartyLoad.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		6835DC712152372E00DB7A48 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				6835DC722152375C00DB7A48 /* NZQNetworkTool.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		684F61A22150F76B0042F7DC /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				684F61A32150FCA60042F7DC /* NZQTabBarController.swift */,
+				6835DC622151E5F000DB7A48 /* ExampleViewController.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		D0EE692D2AED416EC8652D51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				232AD766043D1C62D58F31E2 /* Pods_NZQBaseKit.framework */,
+				3DF47182B64F9847BF39B2D4 /* Pods_NZQBaseKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 681BD50B21509652007223D6 /* Build configuration list for PBXNativeTarget "NZQBaseKit" */;
 			buildPhases = (
+				9AE1BEAFDEF6D10EDD8855D5 /* [CP] Check Pods Manifest.lock */,
 				681BD4DF21509651007223D6 /* Sources */,
 				681BD4E021509651007223D6 /* Frameworks */,
 				681BD4E121509651007223D6 /* Resources */,
+				44221CE03A876C50ACF38F7C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 681BD50E21509652007223D6 /* Build configuration list for PBXNativeTarget "NZQBaseKitTests" */;
 			buildPhases = (
+				DB072FE4ED5827880DBCD0C0 /* [CP] Check Pods Manifest.lock */,
 				681BD4F321509652007223D6 /* Sources */,
 				681BD4F421509652007223D6 /* Frameworks */,
 				681BD4F521509652007223D6 /* Resources */,
@@ -231,7 +304,6 @@
 			files = (
 				681BD4F121509652007223D6 /* LaunchScreen.storyboard in Resources */,
 				681BD4EE21509652007223D6 /* Assets.xcassets in Resources */,
-				681BD4EC21509651007223D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +323,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44221CE03A876C50ACF38F7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NZQBaseKit/Pods-NZQBaseKit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/CollectionKit/CollectionKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollectionKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NZQBaseKit/Pods-NZQBaseKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AE1BEAFDEF6D10EDD8855D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NZQBaseKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB072FE4ED5827880DBCD0C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NZQBaseKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		681BD4DF21509651007223D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				681BD4E921509651007223D6 /* ViewController.swift in Sources */,
 				681BD4E721509651007223D6 /* AppDelegate.swift in Sources */,
+				684F61A42150FCA60042F7DC /* NZQTabBarController.swift in Sources */,
+				6835DC732152375C00DB7A48 /* NZQNetworkTool.swift in Sources */,
+				6835DC6C2151F1AA00DB7A48 /* NZQThirdPartyLoad.swift in Sources */,
+				6835DC632151E5F000DB7A48 /* ExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +439,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		681BD4EA21509651007223D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				681BD4EB21509651007223D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		681BD4EF21509652007223D6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,10 +566,15 @@
 		};
 		681BD50C21509652007223D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC995D3119AED0A3318CA5F /* Pods-NZQBaseKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2T4HE96GYT;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NZQBaseKit/Framework",
+				);
 				INFOPLIST_FILE = NZQBaseKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -446,10 +589,15 @@
 		};
 		681BD50D21509652007223D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C92A980CF660660F8A96702 /* Pods-NZQBaseKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2T4HE96GYT;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NZQBaseKit/Framework",
+				);
 				INFOPLIST_FILE = NZQBaseKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +612,7 @@
 		};
 		681BD50F21509652007223D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCC2335C06A1ABA66370F3F /* Pods-NZQBaseKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +634,7 @@
 		};
 		681BD51021509652007223D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06ACD84F8631E8C5624B63B /* Pods-NZQBaseKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

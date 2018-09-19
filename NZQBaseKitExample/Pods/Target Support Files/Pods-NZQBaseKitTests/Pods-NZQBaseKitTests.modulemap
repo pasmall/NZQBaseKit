@@ -1,0 +1,6 @@
+framework module Pods_NZQBaseKitTests {
+  umbrella header "Pods-NZQBaseKitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
