@@ -126,30 +126,6 @@ class ExampleIrregularityContentView: ESTabBarItemContentView {
     
     private func playMaskAnimation(animateView view: UIView, target: UIView, completion: (() -> ())?) {
         view.center = CGPoint.init(x: target.frame.origin.x + target.frame.size.width / 2.0, y: target.frame.origin.y + target.frame.size.height / 2.0)
-        
-
-//        let scale = POPBasicAnimation.init(propertyNamed: kPOPLayerScaleXY)
-//        scale?.fromValue = NSValue.init(cgSize: CGSize.init(width: 1.0, height: 1.0))
-//        scale?.toValue = NSValue.init(cgSize: CGSize.init(width: 36.0, height: 36.0))
-//        scale?.beginTime = CACurrentMediaTime()
-//        scale?.duration = 0.3
-//        scale?.timingFunction = CAMediaTimingFunction.init(name: kCAMediaTimingFunctionEaseOut)
-//        scale?.removedOnCompletion = true
-//
-//        let alpha = POPBasicAnimation.init(propertyNamed: kPOPLayerOpacity)
-//        alpha?.fromValue = 0.6
-//        alpha?.toValue = 0.6
-//        alpha?.beginTime = CACurrentMediaTime()
-//        alpha?.duration = 0.25
-//        alpha?.timingFunction = CAMediaTimingFunction.init(name: kCAMediaTimingFunctionEaseOut)
-//        alpha?.removedOnCompletion = true
-//
-//        view.layer.pop_add(scale, forKey: "scale")
-//        view.layer.pop_add(alpha, forKey: "alpha")
-//
-//        scale?.completionBlock = ({ animation, finished in
-//            completion?()
-//        })
     }
     
 }
@@ -187,11 +163,11 @@ class NZQTabBarController: ESTabBarController {
             }
         }
         
-        let v1 = ExampleViewController()
-        let v2 = ExampleViewController()
-        let v3 = ExampleViewController()
-        let v4 = ExampleViewController()
-        let v5 = ExampleViewController()
+        let v1 = NZQFoundationDemo()
+        let v2 = UIViewController()
+        let v3 = UIViewController()
+        let v4 = UIViewController()
+        let v5 = UIViewController()
         
         v1.tabBarItem = ESTabBarItem.init(ExampleIrregularityBasicContentView(), title: "Home", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
         v2.tabBarItem = ESTabBarItem.init(ExampleIrregularityBasicContentView(), title: "Find", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
