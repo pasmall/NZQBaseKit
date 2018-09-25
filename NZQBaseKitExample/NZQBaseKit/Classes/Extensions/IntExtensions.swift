@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension Int {
     /// EZSE: Checks if the integer is even.

@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import NZQBaseKit
 
 class NZQBaseKitTests: XCTestCase {
     

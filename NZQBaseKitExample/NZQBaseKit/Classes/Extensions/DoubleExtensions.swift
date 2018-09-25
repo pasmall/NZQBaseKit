@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 precedencegroup PowerPrecedence { higherThan: MultiplicationPrecedence }
 infix operator ** : PowerPrecedence

@@ -124,7 +124,7 @@ extension CGRect {
     return CGRect(origin: origin.transposed, size: size.transposed)
   }
   func inset(by insets: UIEdgeInsets) -> CGRect {
-    return UIEdgeInsetsInsetRect(self, insets)
+    return self.inset(by: insets)
   }
 }
 
